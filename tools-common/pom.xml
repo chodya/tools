@@ -10,6 +10,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>tools-common</artifactId>
-
+    <properties>
+        <redis.version>2.9.0</redis.version>
+    </properties>
+    <dependencies>
+        <!-- redis -->
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>${redis.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>
